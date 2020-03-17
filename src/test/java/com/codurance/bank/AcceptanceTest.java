@@ -1,18 +1,28 @@
 package com.codurance.bank;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InOrder;
 
 import static org.mockito.Mockito.inOrder;
 
 public class AcceptanceTest {
+
+    private Console console;
+    private TransactionRepository transactionRepository;
+    private Printer printer;
+    private AccountService accountServiceImplementation;
+
+    @BeforeEach
+    void setUp() {
+        console = new Console();
+        transactionRepository = new InMemoryTransactionRepository();
+        printer = new PrinterImplementation(console);
+        accountServiceImplementation = new AccountServiceImplementation(transactionRepository, printer);
+    }
+
     @Test
     void it_deposits_withdraws_and_prints_statements() {
-        Console console = new Console();
-        TransactionRepository transactionRepository = new InMemoryTransactionRepository();
-        Printer printer = new PrinterImplementation(console);
-        AccountService accountServiceImplementation = new AccountServiceImplementation(transactionRepository, printer);
-
         accountServiceImplementation.deposit(1000);
         accountServiceImplementation.deposit(2000);
         accountServiceImplementation.withdraw(500);
