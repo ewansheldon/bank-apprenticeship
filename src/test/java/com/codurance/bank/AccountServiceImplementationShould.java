@@ -8,6 +8,7 @@ import com.codurance.bank.domain.Transaction;
 import com.codurance.bank.repository.TransactionRepository;
 import com.codurance.bank.service.AccountService;
 import com.codurance.bank.service.AccountServiceImplementation;
+import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -48,6 +49,16 @@ class AccountServiceImplementationShould {
         assertEquals(DATE, transactionRepository.getDate());
     }
 
+    @Test
+    void print_statement_sends_transactions_to_printer() {
+        PrinterSpy printer = new PrinterSpy();
+
+        accountServiceImplementation.printStatement();
+
+        ArrayList<Transaction> transactions = new ArrayList<>();
+        assertEquals(transactions, printer.verifyPrinted());
+    }
+
     private class TransactionRepositorySpy implements TransactionRepository {
 
         private int amount;
@@ -73,12 +84,28 @@ class AccountServiceImplementationShould {
 
     private class PrinterDummy implements Printer {
 
+        public void print(List<Transaction> transactions) {
+        }
     }
 
     private class ClockMock implements Clock {
 
         public String getCurrentDate() {
             return DATE;
+        }
+    }
+
+    private class PrinterSpy implements Printer {
+
+        private List<Transaction> transactionsPrinted = new ArrayList<>();
+
+        @Override
+        public void print(List<Transaction> transactions) {
+            transactionsPrinted = transactions;
+        }
+
+        public List<Transaction> verifyPrinted() {
+            return transactionsPrinted;
         }
     }
 }

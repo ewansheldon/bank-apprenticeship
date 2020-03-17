@@ -3,15 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="d65b54a8-e0d6-483e-91db-a3632f361a2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/AccountServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/AccountServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/InMemoryTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/InMemoryTransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/UI/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/UI/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/UI/PrinterImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/UI/PrinterImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/service/AccountServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/service/AccountServiceImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountServiceImplementationShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountServiceImplementationShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/InMemoryTransactionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/InMemoryTransactionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Clock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Console.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/InMemoryTransactionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/PrinterImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/TransactionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$DummyClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$DummyClock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$ClockMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$ClockMock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/InMemoryTransactionRepositoryShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/InMemoryTransactionRepositoryShould.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +79,7 @@
       <recent name="com.codurance.bank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AcceptanceTest">
+  <component name="RunManager" selected="JUnit.AccountServiceImplementationShould">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -112,7 +123,7 @@
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codurance.bank.*" />
+          <option name="PATTERN" value="com.codurance.bank.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +140,7 @@
       <module name="bank-apprenticeship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codurance.bank.*" />
+          <option name="PATTERN" value="com.codurance.bank.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +151,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryTransactionRepositoryShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountServiceImplementationShould.print_statement_sends_transactions_to_printer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bank-apprenticeship" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codurance.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codurance.bank" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.bank.AccountServiceImplementationShould" />
+      <option name="METHOD_NAME" value="print_statement_sends_transactions_to_printer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InMemoryTransactionRepositoryShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-apprenticeship" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.bank.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,7 +186,7 @@
       <module name="bank-apprenticeship" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codurance.bank.*" />
+          <option name="PATTERN" value="com.codurance.bank.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,6 +201,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AccountServiceImplementationShould" />
+        <item itemvalue="JUnit.AccountServiceImplementationShould.print_statement_sends_transactions_to_printer" />
         <item itemvalue="JUnit.InMemoryTransactionRepositoryShould.stores_transaction_to_in_memory" />
         <item itemvalue="JUnit.InMemoryTransactionRepositoryShould" />
         <item itemvalue="JUnit.AccountServiceImplementationShould" />
@@ -191,7 +219,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584437307959</updated>
       <workItem from="1584442518573" duration="143000" />
-      <workItem from="1584442693883" duration="1115000" />
+      <workItem from="1584442693883" duration="2462000" />
     </task>
     <servers />
   </component>
@@ -215,11 +243,11 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="422" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584442638445" />
-    <state x="680" y="108" width="374" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1584443490255">
+    <state x="680" y="75" width="374" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1584445068560">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1584442308077" />
-    <state x="680" y="108" width="374" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1046@0.0.1920.1046" timestamp="1584443490255" />
+    <state x="680" y="75" width="374" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1046@0.0.1920.1046" timestamp="1584445068560" />
     <state x="804" y="406" width="307" height="221" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584442569297">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -232,26 +260,26 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="188" y="81" width="1536" height="871" key="DiffContextDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443579910" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584443821666">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584445170426">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584442346575" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584443821666" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584443821665">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584445170426" />
+    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584445170426">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584442346572" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584443821665" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584443821665">
+    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584445170426" />
+    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584445170426">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584442346567" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584443821665" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584443821665">
+    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584445170426" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584445170426">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584442346574" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584443821665" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584445170426" />
     <state x="768" y="451" width="379" height="131" key="ReplaceDuplicatesPrompt" timestamp="1584443848431">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>

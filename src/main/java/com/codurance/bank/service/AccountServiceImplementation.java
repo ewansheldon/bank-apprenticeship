@@ -7,10 +7,12 @@ import com.codurance.bank.repository.TransactionRepository;
 
 public class AccountServiceImplementation implements AccountService {
     private TransactionRepository transactionRepository;
+    private Printer printer;
     private Clock clock;
 
     public AccountServiceImplementation(TransactionRepository transactionRepository, Printer printer, Clock clock) {
         this.transactionRepository = transactionRepository;
+        this.printer = printer;
         this.clock = clock;
     }
 
@@ -23,7 +25,7 @@ public class AccountServiceImplementation implements AccountService {
     }
 
     public void printStatement() {
-        throw new UnsupportedOperationException();
+        printer.print(transactionRepository.getAll());
     }
 
     private Transaction createTransaction(int amount) {
