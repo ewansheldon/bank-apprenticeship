@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.List;
 
 import static java.util.Calendar.*;
 import static org.junit.jupiter.api.Assertions.*;
@@ -43,6 +44,11 @@ class AccountServiceImplementationShould {
         public void save(Transaction transaction) {
             amount = transaction.getAmount();
             date = transaction.getTime();
+        }
+
+        @Override
+        public List<Transaction> getAll() {
+            return null;
         }
     }
 
