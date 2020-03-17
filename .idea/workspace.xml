@@ -2,30 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65b54a8-e0d6-483e-91db-a3632f361a2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bank-apprenticeship.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/InMemoryTransactionRepositoryShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/AccountServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/AccountServiceImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/InMemoryTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/InMemoryTransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountServiceImplementationShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountServiceImplementationShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Clock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Console.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/InMemoryTransactionRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/PrinterImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/TransactionRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Bank.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$DummyClock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$ClockMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/InMemoryTransactionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/InMemoryTransactionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$ClockMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$ClockMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +67,7 @@
       <recent name="com.codurance.bank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InMemoryTransactionRepositoryShould.stores_transaction_to_in_memory">
+  <component name="RunManager" selected="JUnit.AcceptanceTest">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -186,9 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountServiceImplementationShould" />
         <item itemvalue="JUnit.InMemoryTransactionRepositoryShould.stores_transaction_to_in_memory" />
         <item itemvalue="JUnit.InMemoryTransactionRepositoryShould" />
-        <item itemvalue="JUnit.AccountServiceImplementationShould" />
         <item itemvalue="JUnit.AccountServiceImplementationShould" />
       </list>
     </recent_temporary>
@@ -204,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584437307959</updated>
       <workItem from="1584442518573" duration="143000" />
-      <workItem from="1584442693883" duration="807000" />
+      <workItem from="1584442693883" duration="1115000" />
     </task>
     <servers />
   </component>
@@ -241,26 +227,34 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="414" y="266" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1584439404821" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584443483930">
+    <state x="188" y="81" width="1536" height="871" key="DiffContextDialog" timestamp="1584443579910">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="188" y="81" width="1536" height="871" key="DiffContextDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443579910" />
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584443802589">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584442346575" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584443483930" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584443483929">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584443802589" />
+    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584443802588">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584442346572" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584443483929" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584443483928">
+    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584443802588" />
+    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584443802588">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584442346567" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584443483928" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584443483930">
+    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584443802588" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584443802588">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584442346574" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584443483930" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584443802588" />
+    <state x="688" y="188" width="540" height="657" key="RollbackChangesDialog" timestamp="1584443580630">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="688" y="188" width="540" height="657" key="RollbackChangesDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443580630" />
     <state x="224" y="40" width="1016" height="735" key="SettingsEditor" timestamp="1584442773289">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>

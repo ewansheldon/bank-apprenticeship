@@ -14,7 +14,7 @@ public class AccountServiceImplementation implements AccountService {
     }
 
     public void withdraw(int amount) {
-        throw new UnsupportedOperationException();
+        transactionRepository.save(new Transaction(-amount, clock.getCurrentDate()));
     }
 
     public void printStatement() {

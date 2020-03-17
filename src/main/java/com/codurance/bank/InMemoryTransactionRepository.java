@@ -15,7 +15,6 @@ public class InMemoryTransactionRepository implements TransactionRepository {
         transactions.add(transaction);
     }
 
-    @Override
     public List<Transaction> getAll() {
         return transactions;
     }

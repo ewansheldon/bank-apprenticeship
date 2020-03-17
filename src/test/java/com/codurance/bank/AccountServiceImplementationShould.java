@@ -23,12 +23,22 @@ class AccountServiceImplementationShould {
     }
 
     @Test
-    void create_transaction_and_send_to_repository() {
+    void create_transaction_and_send_to_repository_on_deposit() {
         DATE = "10/10/2012";
         int amount = 1000;
         accountServiceImplementation.deposit(amount);
 
         assertEquals(amount, transactionRepository.getAmount());
+        assertEquals(DATE, transactionRepository.getDate());
+    }
+
+    @Test
+    void create_transaction_and_send_to_repository_on_withdraw() {
+        DATE = "11/10/2012";
+        int amount = 1000;
+        accountServiceImplementation.withdraw(amount);
+
+        assertEquals(-amount, transactionRepository.getAmount());
         assertEquals(DATE, transactionRepository.getDate());
     }
 
