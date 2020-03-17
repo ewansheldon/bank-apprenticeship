@@ -1,5 +1,6 @@
-package com.codurance.bank;
+package com.codurance.bank.repository;
 
+import com.codurance.bank.domain.Transaction;
 import java.util.ArrayList;
 import java.util.List;
 

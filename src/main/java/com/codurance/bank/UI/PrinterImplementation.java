@@ -1,4 +1,4 @@
-package com.codurance.bank;
+package com.codurance.bank.UI;
 
 public class PrinterImplementation implements Printer {
 

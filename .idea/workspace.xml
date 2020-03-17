@@ -51,6 +51,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -231,26 +232,30 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="188" y="81" width="1536" height="871" key="DiffContextDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443579910" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584443802589">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584443821666">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584442346575" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584443802589" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584443802588">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584443821666" />
+    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584443821665">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584442346572" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584443802588" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584443802588">
+    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584443821665" />
+    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584443821665">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584442346567" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584443802588" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584443802588">
+    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584443821665" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584443821665">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584442346574" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584443802588" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584443821665" />
+    <state x="768" y="451" width="379" height="131" key="ReplaceDuplicatesPrompt" timestamp="1584443848431">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="768" y="451" width="379" height="131" key="ReplaceDuplicatesPrompt/0.0.1920.1046@0.0.1920.1046" timestamp="1584443848431" />
     <state x="688" y="188" width="540" height="657" key="RollbackChangesDialog" timestamp="1584443580630">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -269,6 +274,10 @@
     </state>
     <state x="409" y="149" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1584440398259" />
     <state x="614" y="184" width="516" height="624" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443132173" />
+    <state x="696" y="256" width="574" height="521" key="extract.method.dialog" timestamp="1584443846196">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="696" y="256" width="574" height="521" key="extract.method.dialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443846196" />
     <state x="306" y="157" width="667" height="486" key="find.popup" timestamp="1584439964178">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

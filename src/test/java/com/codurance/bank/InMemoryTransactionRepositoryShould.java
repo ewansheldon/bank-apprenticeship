@@ -2,6 +2,8 @@ package com.codurance.bank;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import com.codurance.bank.domain.Transaction;
+import com.codurance.bank.repository.InMemoryTransactionRepository;
 import org.junit.jupiter.api.Test;
 
 class InMemoryTransactionRepositoryShould {

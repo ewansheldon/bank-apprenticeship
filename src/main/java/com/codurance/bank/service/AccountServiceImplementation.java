@@ -1,4 +1,9 @@
-package com.codurance.bank;
+package com.codurance.bank.service;
+
+import com.codurance.bank.utils.Clock;
+import com.codurance.bank.UI.Printer;
+import com.codurance.bank.domain.Transaction;
+import com.codurance.bank.repository.TransactionRepository;
 
 public class AccountServiceImplementation implements AccountService {
     private TransactionRepository transactionRepository;
@@ -10,14 +15,18 @@ public class AccountServiceImplementation implements AccountService {
     }
 
     public void deposit(int amount) {
-        transactionRepository.save(new Transaction(amount, clock.getCurrentDate()));
+        transactionRepository.save(createTransaction(amount));
     }
 
     public void withdraw(int amount) {
-        transactionRepository.save(new Transaction(-amount, clock.getCurrentDate()));
+        transactionRepository.save(createTransaction(-amount));
     }
 
     public void printStatement() {
         throw new UnsupportedOperationException();
+    }
+
+    private Transaction createTransaction(int amount) {
+        return new Transaction(amount, clock.getCurrentDate());
     }
 }
