@@ -1,111 +1,54 @@
 package com.codurance.bank;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.codurance.bank.UI.Printer;
-import com.codurance.bank.utils.Clock;
-import com.codurance.bank.domain.Transaction;
-import com.codurance.bank.repository.TransactionRepository;
-import com.codurance.bank.service.AccountService;
-import com.codurance.bank.service.AccountServiceImplementation;
-import java.util.ArrayList;
-import java.util.List;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import static java.util.Calendar.*;
+import static org.junit.jupiter.api.Assertions.*;
+
 class AccountServiceImplementationShould {
-
-    private TransactionRepositorySpy transactionRepository;
-    private Printer printer;
-    private AccountService accountServiceImplementation;
-    private String DATE;
-
-    @BeforeEach
-    void setUp() {
-        transactionRepository = new TransactionRepositorySpy();
-        printer = new PrinterDummy();
-        ClockMock clock = new ClockMock();
-        accountServiceImplementation = new AccountServiceImplementation(transactionRepository,
-            printer, clock);
-    }
+    private final Calendar DATE = new GregorianCalendar(2013, JANUARY, 31);
 
     @Test
-    void create_transaction_and_send_to_repository_on_deposit() {
-        DATE = "10/10/2012";
+    void create_transaction_and_save_when_deposit() {
+        TransactionRepositorySpy transactionRepository = new TransactionRepositorySpy();
+        Printer printer = new PrinterDummy();
+        Clock clock = new ClockMock();
+        AccountService account = new AccountServiceImplementation(transactionRepository, printer, clock);
+
         int amount = 1000;
-        accountServiceImplementation.deposit(amount);
+        account.deposit(amount);
 
-        assertEquals(amount, transactionRepository.getAmount());
-        assertEquals(DATE, transactionRepository.getDate());
+        assertEquals(amount, transactionRepository.verifyAmount());
+        assertEquals(DATE, transactionRepository.verifyDate());
     }
 
-    @Test
-    void create_transaction_and_send_to_repository_on_withdraw() {
-        DATE = "11/10/2012";
-        int amount = 1000;
-        accountServiceImplementation.withdraw(amount);
-
-        assertEquals(-amount, transactionRepository.getAmount());
-        assertEquals(DATE, transactionRepository.getDate());
-    }
-
-    @Test
-    void print_statement_sends_transactions_to_printer() {
-        PrinterSpy printer = new PrinterSpy();
-
-        accountServiceImplementation.printStatement();
-
-        ArrayList<Transaction> transactions = new ArrayList<>();
-        assertEquals(transactions, printer.verifyPrinted());
+    private class PrinterDummy implements Printer {
     }
 
     private class TransactionRepositorySpy implements TransactionRepository {
-
         private int amount;
-        private String date;
+        private Calendar date;
 
-        public int getAmount() {
+        public int verifyAmount() {
             return amount;
         }
 
-        public String getDate() {
+        public Calendar verifyDate() {
             return date;
         }
 
         public void save(Transaction transaction) {
             amount = transaction.getAmount();
-            date = transaction.getDate();
-        }
-
-        public List<Transaction> getAll() {
-            return null;
-        }
-    }
-
-    private class PrinterDummy implements Printer {
-
-        public void print(List<Transaction> transactions) {
+            date = transaction.getTime();
         }
     }
 
     private class ClockMock implements Clock {
-
-        public String getCurrentDate() {
+        public Calendar getTime() {
             return DATE;
-        }
-    }
-
-    private class PrinterSpy implements Printer {
-
-        private List<Transaction> transactionsPrinted = new ArrayList<>();
-
-        @Override
-        public void print(List<Transaction> transactions) {
-            transactionsPrinted = transactions;
-        }
-
-        public List<Transaction> verifyPrinted() {
-            return transactionsPrinted;
         }
     }
 }

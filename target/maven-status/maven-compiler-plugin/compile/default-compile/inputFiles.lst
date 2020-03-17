@@ -1,9 +1,8 @@
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/InMemoryTransactionRepository.java
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/Clock.java
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/AccountService.java
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/Transaction.java
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/Console.java
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/TransactionRepository.java
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/AccountServiceImplementation.java
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/PrinterImplementation.java
-/home/apavlidi/IdeaProjects/bank-apprenticeship/src/main/java/com/codurance/bank/Printer.java
+/Users/ewansheldon/Documents/apprenticeship/Bank/src/main/java/com/codurance/bank/ConsoleImplementation.java
+/Users/ewansheldon/Documents/apprenticeship/Bank/src/main/java/com/codurance/bank/AccountServiceImplementation.java
+/Users/ewansheldon/Documents/apprenticeship/Bank/src/main/java/com/codurance/bank/Printer.java
+/Users/ewansheldon/Documents/apprenticeship/Bank/src/main/java/com/codurance/bank/TransactionRepositoryInMemory.java
+/Users/ewansheldon/Documents/apprenticeship/Bank/src/main/java/com/codurance/bank/TransactionRepository.java
+/Users/ewansheldon/Documents/apprenticeship/Bank/src/main/java/com/codurance/bank/PrinterImplementation.java
+/Users/ewansheldon/Documents/apprenticeship/Bank/src/main/java/com/codurance/bank/AccountService.java
+/Users/ewansheldon/Documents/apprenticeship/Bank/src/main/java/com/codurance/bank/Console.java

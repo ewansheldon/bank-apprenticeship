@@ -1,9 +1,8 @@
-com/codurance/bank/Transaction.class
-com/codurance/bank/Clock.class
 com/codurance/bank/AccountService.class
-com/codurance/bank/Console.class
+com/codurance/bank/ConsoleImplementation.class
+com/codurance/bank/TransactionRepositoryInMemory.class
 com/codurance/bank/TransactionRepository.class
+com/codurance/bank/Console.class
 com/codurance/bank/AccountServiceImplementation.class
-com/codurance/bank/InMemoryTransactionRepository.class
-com/codurance/bank/Printer.class
 com/codurance/bank/PrinterImplementation.class
+com/codurance/bank/Printer.class

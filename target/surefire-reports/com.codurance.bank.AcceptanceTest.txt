@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.codurance.bank.AcceptanceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.034 s <<< FAILURE! - in com.codurance.bank.AcceptanceTest
-it_deposits_withdraws_and_prints_statements  Time elapsed: 0.027 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.205 s <<< FAILURE! - in com.codurance.bank.AcceptanceTest
+deposits_withdraws_and_prints_statement  Time elapsed: 0.151 s  <<< ERROR!
 java.lang.UnsupportedOperationException
-	at com.codurance.bank.AcceptanceTest.it_deposits_withdraws_and_prints_statements(AcceptanceTest.java:27)
+	at com.codurance.bank.AcceptanceTest.deposits_withdraws_and_prints_statement(AcceptanceTest.java:15)
 

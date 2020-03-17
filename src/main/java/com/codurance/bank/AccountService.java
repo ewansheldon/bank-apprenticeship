@@ -1,4 +1,4 @@
-package com.codurance.bank.service;
+package com.codurance.bank;
 
 public interface AccountService {
     void deposit(int amount);
