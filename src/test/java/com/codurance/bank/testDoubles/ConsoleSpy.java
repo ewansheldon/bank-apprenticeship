@@ -6,12 +6,16 @@ public class ConsoleSpy implements Console {
 
     private StringBuilder str;
 
+    public ConsoleSpy() {
+        str = new StringBuilder();
+    }
+
     public String verifyPrinted() {
         return str.toString();
     }
 
     @Override
     public void print(String line) {
-        str = new StringBuilder(line);
+        str.append(line);
     }
 }

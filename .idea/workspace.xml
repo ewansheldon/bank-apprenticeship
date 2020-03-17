@@ -2,47 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65b54a8-e0d6-483e-91db-a3632f361a2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ui/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/testDoubles/ConsoleSpy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/ui/PrinterImplementationShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/AccountServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/service/AccountServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/utils/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ui/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ConsoleImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ui/ConsoleImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/PrinterImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ui/PrinterImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/domain/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/repo/TransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepositoryInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/repo/TransactionRepositoryInMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AcceptanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AcceptanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountServiceImplementationShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/service/AccountServiceImplementationShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/TransactionRepositoryInMemoryShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/repo/TransactionRepositoryInMemoryShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Clock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Console.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/ConsoleImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/PrinterImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/TransactionRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/TransactionRepositoryInMemory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.codurance.bank.AcceptanceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.codurance.bank.AcceptanceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.codurance.bank.AcceptanceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.codurance.bank.AcceptanceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$ClockDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$ClockDummy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$ConsoleSpy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$ClockMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/domain/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/domain/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ui/PrinterImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ui/PrinterImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/service/AccountServiceImplementationShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/service/AccountServiceImplementationShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/testDoubles/ConsoleSpy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/testDoubles/ConsoleSpy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/ui/PrinterImplementationShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/ui/PrinterImplementationShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/domain/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/domain/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/ui/PrinterImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/ui/PrinterImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$ClockMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$ClockMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$PrinterDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$PrinterDummy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$PrinterSpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$PrinterSpy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$RepositoryStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$RepositoryStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$TransactionRepositorySpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$TransactionRepositorySpy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/ui/PrinterImplementationShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/ui/PrinterImplementationShould.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,16 +341,16 @@
     </state>
     <state x="115" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584453617333" />
     <state x="422" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584461625153" />
-    <state x="100" y="78" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584462312908">
+    <state x="100" y="34" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584463310145">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="100" y="78" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584462312908" />
-    <state x="680" y="9" width="327" height="444" key="#com.intellij.ide.util.MemberChooser" timestamp="1584462290446">
+    <state x="100" y="34" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584463310145" />
+    <state x="680" y="-2" width="327" height="444" key="#com.intellij.ide.util.MemberChooser" timestamp="1584463299830">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="453" y="57" width="327" height="444" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584455986935" />
     <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1584442308077" />
-    <state x="680" y="9" width="374" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1046@0.0.1920.1046" timestamp="1584462290446" />
+    <state x="680" y="-2" width="374" height="580" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1046@0.0.1920.1046" timestamp="1584463299830" />
     <state x="804" y="395" width="299" height="170" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584460504527">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -395,30 +369,30 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="188" y="81" width="1536" height="871" key="DiffContextDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443579910" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584462302772">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584463238608">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584456013188" />
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584442346575" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584462302772" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584462302772">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584463238608" />
+    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584463238608">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584456013185" />
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584442346572" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584462302772" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584462302772">
+    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584463238608" />
+    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584463238608">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584456013182" />
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584442346567" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584462302772" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584462302772">
+    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584463238608" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584463238608">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584456013186" />
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584442346574" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584462302772" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584463238608" />
     <state x="663" y="199" width="590" height="631" key="RefactorJ.ExtractClass" timestamp="1584461895323">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -446,10 +420,10 @@
     <state x="409" y="141" width="431" height="478" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584453806044" />
     <state x="409" y="149" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1584440398259" />
     <state x="614" y="173" width="516" height="624" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584461768255" />
-    <state x="696" y="256" width="574" height="521" key="extract.method.dialog" timestamp="1584443846196">
+    <state x="696" y="245" width="574" height="521" key="extract.method.dialog" timestamp="1584462411916">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="696" y="256" width="574" height="521" key="extract.method.dialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443846196" />
+    <state x="696" y="245" width="574" height="521" key="extract.method.dialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584462411916" />
     <state x="306" y="157" width="667" height="486" key="find.popup" timestamp="1584439964178">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -2,8 +2,6 @@ package com.codurance.bank.service;
 
 import com.codurance.bank.domain.Transaction;
 import com.codurance.bank.repo.TransactionRepository;
-import com.codurance.bank.service.AccountService;
-import com.codurance.bank.service.AccountServiceImplementation;
 import com.codurance.bank.ui.Printer;
 import com.codurance.bank.utils.Clock;
 import org.junit.jupiter.api.BeforeEach;
@@ -97,7 +95,7 @@ class AccountServiceImplementationShould {
 
         public void save(Transaction transaction) {
             amount = transaction.getAmount();
-            date = transaction.getTime();
+            date = transaction.getCalendar();
         }
 
         public List<Transaction> getAll() {

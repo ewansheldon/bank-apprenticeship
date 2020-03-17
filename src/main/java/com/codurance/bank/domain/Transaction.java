@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class Transaction {
     private final int amount;
-    private final Calendar time;
+    private final Calendar time; //FIXME PLEASE CHANGE ME, I CAN BE MUTATED!!!!
 
     public Transaction(int amount, Calendar time) {
         this.amount = amount;
@@ -15,7 +15,7 @@ public class Transaction {
         return amount;
     }
 
-    public Calendar getTime() {
+    public Calendar getCalendar() {
         return time;
     }
 }
