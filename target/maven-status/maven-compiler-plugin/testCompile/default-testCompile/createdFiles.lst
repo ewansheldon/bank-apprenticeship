@@ -1,5 +1,10 @@
+com/codurance/bank/AccountServiceImplementationShould$PrinterSpy.class
 com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class
+com/codurance/bank/TransactionRepositoryInMemoryShould.class
+com/codurance/bank/AccountServiceImplementationShould$ClockMock.class
 com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class
 com/codurance/bank/AcceptanceTest$ConsoleSpy.class
-com/codurance/bank/AcceptanceTest.class
+com/codurance/bank/AccountServiceImplementationShould$RepositoryStub.class
 com/codurance/bank/AccountServiceImplementationShould.class
+com/codurance/bank/AcceptanceTest.class
+com/codurance/bank/AcceptanceTest$ClockDummy.class

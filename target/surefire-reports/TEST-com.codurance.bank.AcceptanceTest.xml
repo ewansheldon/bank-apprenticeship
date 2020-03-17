@@ -1,61 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.codurance.bank.AcceptanceTest" time="0.205" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.codurance.bank.AcceptanceTest" time="0.051" tests="1" errors="1" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="13"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/ewansheldon/Documents/apprenticeship/Bank/target/test-classes:/Users/ewansheldon/Documents/apprenticeship/Bank/target/classes:/Users/ewansheldon/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/ewansheldon/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/ewansheldon/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/ewansheldon/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/ewansheldon/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/ewansheldon/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/ewansheldon/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/ewansheldon/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/Users/ewansheldon/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/ewansheldon/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/ewansheldon/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/ewansheldon/.m2/repository/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0.jar:/Users/ewansheldon/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ewansheldon/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/ewansheldon/.m2/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar:/Users/ewansheldon/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ewansheldon/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ewansheldon/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ewansheldon/.m2/repository/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar:/Users/ewansheldon/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/Users/ewansheldon/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ewansheldon/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="/home/apavlidi/IdeaProjects/bank-apprenticeship/target/test-classes:/home/apavlidi/IdeaProjects/bank-apprenticeship/target/classes:/home/apavlidi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/home/apavlidi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/apavlidi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/apavlidi/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/home/apavlidi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/home/apavlidi/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/home/apavlidi/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/home/apavlidi/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/home/apavlidi/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/home/apavlidi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/home/apavlidi/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/apavlidi/.m2/repository/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0.jar:/home/apavlidi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/apavlidi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/home/apavlidi/.m2/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar:/home/apavlidi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/apavlidi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/apavlidi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/apavlidi/.m2/repository/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar:/home/apavlidi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/home/apavlidi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/apavlidi/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="13"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ewansheldon/Documents/apprenticeship/Bank/target/surefire/surefirebooter11945015212532111253.jar /Users/ewansheldon/Documents/apprenticeship/Bank/target/surefire 2020-03-17T14-25-19_240-jvmRun1 surefire4222837505267698787tmp surefire_014961938977276049792tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/apavlidi/IdeaProjects/bank-apprenticeship/target/surefire/surefirebooter7240427502000804517.jar /home/apavlidi/IdeaProjects/bank-apprenticeship/target/surefire 2020-03-17T15-57-12_860-jvmRun1 surefire7691654508624558731tmp surefire_03066999731455350785tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/ewansheldon/Documents/apprenticeship/Bank/target/test-classes:/Users/ewansheldon/Documents/apprenticeship/Bank/target/classes:/Users/ewansheldon/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/ewansheldon/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/ewansheldon/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/ewansheldon/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/ewansheldon/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/ewansheldon/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/ewansheldon/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/Users/ewansheldon/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/Users/ewansheldon/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/ewansheldon/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/ewansheldon/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/ewansheldon/.m2/repository/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0.jar:/Users/ewansheldon/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ewansheldon/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/ewansheldon/.m2/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar:/Users/ewansheldon/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ewansheldon/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ewansheldon/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ewansheldon/.m2/repository/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar:/Users/ewansheldon/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/Users/ewansheldon/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ewansheldon/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:"/>
+    <property name="surefire.test.class.path" value="/home/apavlidi/IdeaProjects/bank-apprenticeship/target/test-classes:/home/apavlidi/IdeaProjects/bank-apprenticeship/target/classes:/home/apavlidi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/home/apavlidi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/apavlidi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/apavlidi/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/home/apavlidi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/home/apavlidi/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/home/apavlidi/.m2/repository/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar:/home/apavlidi/.m2/repository/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar:/home/apavlidi/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/home/apavlidi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/home/apavlidi/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/apavlidi/.m2/repository/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0.jar:/home/apavlidi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/apavlidi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/home/apavlidi/.m2/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar:/home/apavlidi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/apavlidi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/apavlidi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/apavlidi/.m2/repository/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar:/home/apavlidi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/home/apavlidi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/apavlidi/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/ewansheldon"/>
+    <property name="user.home" value="/home/apavlidi"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2020-01-14"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/ewansheldon/Documents/apprenticeship/Bank"/>
+    <property name="basedir" value="/home/apavlidi/IdeaProjects/bank-apprenticeship"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/ewansheldon/Documents/apprenticeship/Bank/target/surefire/surefirebooter11945015212532111253.jar"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/apavlidi/IdeaProjects/bank-apprenticeship/target/surefire/surefirebooter7240427502000804517.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="13.0.2+8"/>
-    <property name="user.name" value="ewansheldon"/>
+    <property name="java.runtime.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/>
+    <property name="user.name" value="apavlidi"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.14"/>
+    <property name="os.version" value="5.3.0-40-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/Users/ewansheldon/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/var/folders/1d/107wq3b91h90y4blk10kgj500000gn/T/"/>
-    <property name="java.version" value="13.0.2"/>
-    <property name="user.dir" value="/Users/ewansheldon/Documents/apprenticeship/Bank"/>
-    <property name="os.arch" value="x86_64"/>
+    <property name="localRepository" value="/home/apavlidi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="/home/apavlidi/IdeaProjects/bank-apprenticeship"/>
+    <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.library.path" value="/Users/ewansheldon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Ubuntu"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="13.0.2+8"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="57.0"/>
+    <property name="java.vm.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="deposits_withdraws_and_prints_statement" classname="com.codurance.bank.AcceptanceTest" time="0.151">
+  <testcase name="deposits_withdraws_and_prints_statement" classname="com.codurance.bank.AcceptanceTest" time="0.041">
     <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
-	at com.codurance.bank.AcceptanceTest.deposits_withdraws_and_prints_statement(AcceptanceTest.java:15)
+	at com.codurance.bank.AcceptanceTest.deposits_withdraws_and_prints_statement(AcceptanceTest.java:21)
 </error>
   </testcase>
 </testsuite>

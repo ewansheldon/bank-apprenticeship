@@ -1,10 +1,17 @@
 package com.codurance.bank;
 
-import org.junit.jupiter.api.Test;
-
-import java.util.Calendar;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import com.codurance.bank.repo.TransactionRepository;
+import com.codurance.bank.repo.TransactionRepositoryInMemory;
+import com.codurance.bank.service.AccountService;
+import com.codurance.bank.service.AccountServiceImplementation;
+import com.codurance.bank.testDoubles.ConsoleSpy;
+import com.codurance.bank.ui.Printer;
+import com.codurance.bank.ui.PrinterImplementation;
+import com.codurance.bank.utils.Clock;
+import java.util.Calendar;
+import org.junit.jupiter.api.Test;
 
 public class AcceptanceTest {
     @Test
@@ -24,13 +31,6 @@ public class AcceptanceTest {
                 "14/01/2012 || -500 || 2500\n" +
                 "13/01/2012 || 2000 || 3000\n" +
                 "10/01/2012 || 1000 || 1000", console.verifyPrinted());
-    }
-
-    private class ConsoleSpy implements Console {
-
-        public String verifyPrinted() {
-            return null;
-        }
     }
 
     private class ClockDummy implements Clock {
