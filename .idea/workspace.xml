@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d65b54a8-e0d6-483e-91db-a3632f361a2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/domain/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/domain/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ui/PrinterImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/ui/PrinterImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/service/AccountServiceImplementationShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/service/AccountServiceImplementationShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/testDoubles/ConsoleSpy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/testDoubles/ConsoleSpy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/ui/PrinterImplementationShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/ui/PrinterImplementationShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/domain/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/domain/Transaction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/ui/PrinterImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/ui/PrinterImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$ClockMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$ClockMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$PrinterDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$PrinterDummy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$PrinterSpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$PrinterSpy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$RepositoryStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$RepositoryStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$TransactionRepositorySpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould$TransactionRepositorySpy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/service/AccountServiceImplementationShould.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/ui/PrinterImplementationShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/ui/PrinterImplementationShould.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -341,10 +330,10 @@
     </state>
     <state x="115" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584453617333" />
     <state x="422" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584461625153" />
-    <state x="100" y="34" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584463310145">
+    <state x="100" y="1" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584463576297">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="100" y="34" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584463310145" />
+    <state x="100" y="1" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584463576297" />
     <state x="680" y="-2" width="327" height="444" key="#com.intellij.ide.util.MemberChooser" timestamp="1584463299830">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -369,30 +358,30 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="188" y="81" width="1536" height="871" key="DiffContextDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1584443579910" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584463238608">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1584463584580">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584456013188" />
     <state width="1238" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584442346575" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584463238608" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584463238608">
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1584463584580" />
+    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1584463584579">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584456013185" />
     <state width="1238" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584442346572" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584463238608" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584463238608">
+    <state width="1874" height="277" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1584463584579" />
+    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1584463584579">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584456013182" />
     <state width="1238" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584442346567" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584463238608" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584463238608">
+    <state width="1874" height="277" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1584463584579" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1584463584579">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800/0.-1440.2560.1440@0.0.1280.800" timestamp="1584456013186" />
     <state width="1238" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584442346574" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584463238608" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1584463584579" />
     <state x="663" y="199" width="590" height="631" key="RefactorJ.ExtractClass" timestamp="1584461895323">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
