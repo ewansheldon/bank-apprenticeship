@@ -18,7 +18,8 @@ public class AcceptanceTest {
         console = new Console();
         transactionRepository = new InMemoryTransactionRepository();
         printer = new PrinterImplementation(console);
-        accountServiceImplementation = new AccountServiceImplementation(transactionRepository, printer);
+        Clock clock = new DummyClock();
+        accountServiceImplementation = new AccountServiceImplementation(transactionRepository, printer, clock);
     }
 
     @Test
@@ -33,5 +34,11 @@ public class AcceptanceTest {
         inOrder.verify(console).print("14/01/2012 || -500 || 2500");
         inOrder.verify(console).print("13/01/2012 || 2000 || 3000");
         inOrder.verify(console).print("10/01/2012 || 1000 || 1000");
+    }
+
+    private class DummyClock implements Clock {
+        public String getCurrentDate() {
+            return null;
+        }
     }
 }
