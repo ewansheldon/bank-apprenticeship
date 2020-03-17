@@ -10,14 +10,18 @@ public class AccountServiceImplementation implements AccountService {
     }
 
     public void deposit(int amount) {
-        transactionRepository.save(new Transaction(amount, clock.getTime()));
+        transactionRepository.save(createTransaction(amount));
     }
 
     public void withdraw(int amount) {
-        throw new UnsupportedOperationException();
+        transactionRepository.save(createTransaction(-amount));
     }
 
     public void printStatement() {
         throw new UnsupportedOperationException();
+    }
+
+    private Transaction createTransaction(int amount) {
+        return new Transaction(amount, clock.getTime());
     }
 }

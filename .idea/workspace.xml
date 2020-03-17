@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65b54a8-e0d6-483e-91db-a3632f361a2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/TransactionRepositoryInMemoryShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/AccountServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/AccountServiceImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepositoryInMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codurance/bank/TransactionRepositoryInMemory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountServiceImplementationShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/AccountServiceImplementationShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codurance/bank/TransactionRepositoryInMemoryShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codurance/bank/TransactionRepositoryInMemoryShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/AccountServiceImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/Clock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/Console.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/ConsoleImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/ConsoleImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/PrinterImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/PrinterImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/TransactionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/TransactionRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codurance/bank/TransactionRepositoryInMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codurance/bank/TransactionRepositoryInMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$ClockDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$ClockDummy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$ConsoleSpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest$ConsoleSpy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AcceptanceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$ClockMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$ClockMock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$PrinterDummy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/codurance/bank/AccountServiceImplementationShould$TransactionRepositorySpy.class" afterDir="false" />
@@ -62,11 +49,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -98,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionRepositoryInMemoryShould">
+  <component name="RunManager" selected="JUnit.AccountServiceImplementationShould">
     <configuration type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <useClassPathOnly />
       <extension name="coverage">
@@ -184,17 +178,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryTransactionRepositoryShould.stores_transaction_to_in_memory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-apprenticeship" />
+    <configuration name="AccountServiceImplementationShould.create_transaction_and_save_when_withdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codurance.bank.repository.*" />
+          <option name="PATTERN" value="com.codurance.bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.codurance.bank" />
-      <option name="MAIN_CLASS_NAME" value="com.codurance.bank.InMemoryTransactionRepositoryShould" />
-      <option name="METHOD_NAME" value="stores_transaction_to_in_memory" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.bank.AccountServiceImplementationShould" />
+      <option name="METHOD_NAME" value="create_transaction_and_save_when_withdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceImplementationShould.create_transaction_and_save_when_withdrawß" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codurance.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codurance.bank" />
+      <option name="MAIN_CLASS_NAME" value="com.codurance.bank.AccountServiceImplementationShould" />
+      <option name="METHOD_NAME" value="create_transaction_and_save_when_withdrawß" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,34 +225,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.codurance.bank in Bank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codurance.bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.codurance.bank" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.AccountServiceImplementationShould" />
-      <item itemvalue="JUnit.InMemoryTransactionRepositoryShould.stores_transaction_to_in_memory" />
       <item itemvalue="JUnit.AcceptanceTest" />
-      <item itemvalue="JUnit.com.codurance.bank in Bank" />
       <item itemvalue="JUnit.TransactionRepositoryInMemoryShould" />
+      <item itemvalue="JUnit.AccountServiceImplementationShould.create_transaction_and_save_when_withdrawß" />
+      <item itemvalue="JUnit.AccountServiceImplementationShould.create_transaction_and_save_when_withdraw" />
+      <item itemvalue="JUnit.AccountServiceImplementationShould" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TransactionRepositoryInMemoryShould" />
+        <item itemvalue="JUnit.AccountServiceImplementationShould" />
         <item itemvalue="JUnit.AcceptanceTest" />
-        <item itemvalue="JUnit.com.codurance.bank in Bank" />
-        <item itemvalue="JUnit.AccountServiceImplementationShould" />
-        <item itemvalue="JUnit.AccountServiceImplementationShould" />
+        <item itemvalue="JUnit.AccountServiceImplementationShould.create_transaction_and_save_when_withdraw" />
+        <item itemvalue="JUnit.AccountServiceImplementationShould.create_transaction_and_save_when_withdrawß" />
+        <item itemvalue="JUnit.TransactionRepositoryInMemoryShould" />
       </list>
     </recent_temporary>
   </component>
@@ -258,8 +254,16 @@
       <updated>1584437307959</updated>
       <workItem from="1584442518573" duration="143000" />
       <workItem from="1584442693883" duration="2462000" />
-      <workItem from="1584456549171" duration="1355000" />
+      <workItem from="1584456549171" duration="3226000" />
     </task>
+    <task id="LOCAL-00001" summary="Add test for TransactionRepositoryInMemory and implement Repository save method.">
+      <created>1584457984776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584457984776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +279,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add test for TransactionRepositoryInMemory and implement Repository save method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test for TransactionRepositoryInMemory and implement Repository save method." />
   </component>
   <component name="WindowStateProjectService">
     <state x="215" y="61" key="#" timestamp="1584455094978">
